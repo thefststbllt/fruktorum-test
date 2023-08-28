@@ -1,6 +1,6 @@
 <template lang="pug">
 section.cta-form-block
-  NuxtImg(class="cta-form-block__picture" :src="'/images/image-form.jpg'" alt="Wide-smile-girl")
+  img(class="cta-form-block__picture" :src="'/images/image-form.jpg'" alt="Wide-smile-girl")
   h2.cta-form-block__title Стань участником проекта
   form.cta-form-block__form.form
     label.cta-form-block__form-field.form__field(v-for="item in formFields")
