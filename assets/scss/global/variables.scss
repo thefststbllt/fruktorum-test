@@ -1,0 +1,28 @@
+// ** Fonts **
+$ff-default:                           "Montserrat", Arial, sans-serif;
+$ff-side-font:                             "Ubuntu", Arial, sans-serif;
+
+// ** Colors ** (Color names were been taken from www.htmlcsscolor.com)
+$color-default-white:                                          #FFFFFF;
+$color-white:                                                  #FEFEFE;
+$color-gainsboro:                                              #D9D9D9;
+$color-bali-hai:                                               #8D959C;
+$color-nero:                                                   #1B1B1B;
+$color-free-speech-blue:                                       #3657D3;
+
+// ** Transitions **
+$tr-default:                                             0.3s all ease;
+
+// ** Viewports **
+$vp-1368:                                                       1368px;
+$vp-1200:                                                       1200px;
+$vp-1024:                                                       1024px;
+$vp-768:                                                         768px;
+$vp-640:                                                        1368px;
+
+// ** Breakpoints **
+$bp-1367:                                               $vp-1368 - 1px;
+$bp-1199:                                               $vp-1200 - 1px;
+$bp-1023:                                               $vp-1024 - 1px;
+$bp-767:                                                 $vp-768 - 1px;
+$bp-639:                                                 $vp-640 - 1px;

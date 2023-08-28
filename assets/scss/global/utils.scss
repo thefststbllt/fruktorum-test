@@ -1,0 +1,35 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 1340px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  @media(max-width: $bp-1367) {
+    width: $vp-1200;
+  }
+
+  @media(max-width: $bp-1199) {
+    width: $vp-1024;
+  }
+
+  @media(max-width: $bp-1023) {
+    width: $vp-768;
+  }
+
+  @media(max-width: $bp-767) {
+    width: calc(100% - 20px);
+  }
+}
