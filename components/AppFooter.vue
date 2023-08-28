@@ -40,19 +40,19 @@ export default {
   setup() {
     const socialLinks = [
       {
-        src: 'facebook.com',
+        src: 'https://www.facebook.com',
         icon: IconFacebook
       },
       {
-        src: 'vk.com',
+        src: 'https://www.vk.com',
         icon: IconVk
       },
       {
-        src: 'instagram.com',
+        src: 'https://www.instagram.com',
         icon: IconInsta
       },
       {
-        src: 'telegram.org',
+        src: 'https://www.telegram.org',
         icon: IconTelegram
       }
     ];

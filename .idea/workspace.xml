@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0d9b898-a1cc-481b-862d-1c872e0efac9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/components/SliderBlock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/SliderBlock.vue" afterDir="false" />
-    </list>
+    <list default="true" id="c0d9b898-a1cc-481b-862d-1c872e0efac9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +78,7 @@
       <workItem from="1693190170964" duration="1786000" />
       <workItem from="1693203975886" duration="159000" />
       <workItem from="1693205755539" duration="549000" />
-      <workItem from="1693206857126" duration="1140000" />
+      <workItem from="1693206857126" duration="1396000" />
     </task>
     <servers />
   </component>
