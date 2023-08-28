@@ -57,6 +57,10 @@ export default {
   }
 
   @media(max-width: $bp-1367) {
+    &__title {
+      margin: 0 0 50px 60px;
+    }
+
     &__list {
       width: 884px;
       display: flex;
@@ -78,6 +82,10 @@ export default {
   }
 
   @media(max-width: $bp-1199) {
+    &__title {
+      margin: 0 0 50px;
+    }
+
     &__list {
       display: grid;
       gap: 30px;

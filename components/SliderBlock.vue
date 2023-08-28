@@ -45,7 +45,7 @@ export default {
 .slider-block {
   width: 100%;
 
-  &__wrapper {
+  .swiper {
     width: 100%;
     padding: 0 0 50px;
   }
