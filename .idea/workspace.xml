@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c0d9b898-a1cc-481b-862d-1c872e0efac9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/global/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/global/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SliderBlock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/SliderBlock.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +82,7 @@
       <workItem from="1693190170964" duration="1786000" />
       <workItem from="1693203975886" duration="159000" />
       <workItem from="1693205755539" duration="549000" />
+      <workItem from="1693206857126" duration="896000" />
     </task>
     <servers />
   </component>

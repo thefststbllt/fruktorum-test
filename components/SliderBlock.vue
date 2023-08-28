@@ -25,7 +25,7 @@ export default {
       prevEl: '.swiper-button-prev',
     }
     const paginationOpt = {
-      horizontalClass: 'slider-block__pagination',
+      horizontalClass: 'swiper-pagination',
       type: 'fraction'
     }
 
@@ -50,12 +50,13 @@ export default {
     padding: 0 0 50px;
   }
 
-  &__item {
+  .swiper-slide {
     display: flex;
     justify-content: center;
   }
 
-  &__btn {
+  .swiper-button-prev,
+  .swiper-button-next {
     display: block;
     width: 60px;
     height: 60px;
@@ -73,7 +74,7 @@ export default {
       left: calc(50% - 5px);
     }
 
-    &--next {
+    .swiper-button-next {
       &::after {
         left: unset;
         right: calc(50% - 5px);
@@ -81,7 +82,7 @@ export default {
     }
   }
 
-  &__pagination {
+  .swiper-pagination {
     @include body1;
     bottom: 0;
   }
@@ -99,7 +100,8 @@ export default {
   }
 
   @media (max-width: $bp-1023) {
-    &__btn {
+    .swiper-button-prev,
+    .swiper-button-next {
       background-color: transparent;
       border-radius: 50%;
       box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.5);
@@ -124,7 +126,7 @@ export default {
         }
       }
 
-      &--next {
+      .swiper-button-next {
         &::after {
           left: unset;
           right: calc(50% - 10px);
@@ -134,6 +136,12 @@ export default {
 
     &__image {
       width: $vp-640;
+    }
+  }
+
+  @media (max-width: $bp-767) {
+    &__image {
+      width: 100%;
     }
   }
 }
