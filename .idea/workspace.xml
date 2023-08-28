@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0d9b898-a1cc-481b-862d-1c872e0efac9" name="Changes" comment="" />
+    <list default="true" id="c0d9b898-a1cc-481b-862d-1c872e0efac9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/global/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/global/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/global/reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/global/reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ArticleIntroBlock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/ArticleIntroBlock.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ImageBlock.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/ImageBlock.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +85,8 @@
       <workItem from="1693203975886" duration="159000" />
       <workItem from="1693205755539" duration="549000" />
       <workItem from="1693206857126" duration="1396000" />
+      <workItem from="1693208813445" duration="226000" />
+      <workItem from="1693209435821" duration="562000" />
     </task>
     <servers />
   </component>

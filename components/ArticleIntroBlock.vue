@@ -1,6 +1,6 @@
 <template lang="pug">
 section.article-intro-block
-  img.article-intro-block__picture(:src="blockData.image" :alt="blockData.title")
+  img.article-intro-block__picture(:src="blockData.image" :alt="blockData.title" width="541" height="580")
   .article-intro-block__title-field
     h1.article-intro-block__title {{ blockData.title }}
     .article-intro-block__info-wrapper
@@ -43,12 +43,15 @@ export default {
 @import "../assets/scss/index";
 
 .article-intro-block {
+  width: 100%;
   display: grid;
   grid-template-columns: 541px 1fr;
   gap: 30px;
 
   &__picture {
+    object-fit: contain;
     width: 100%;
+    height: auto;
     border-radius: 2px 220px 2px 2px;
   }
 
@@ -105,6 +108,12 @@ export default {
         width: 32px;
         margin: 0 16px 0 0;
       }
+    }
+  }
+
+  @media (max-width: $bp-767) {
+    &__title {
+      word-break: break-word;
     }
   }
 }

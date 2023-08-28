@@ -42,7 +42,6 @@ export default {
     align-self: end;
     text-align: end;
     margin: 15px 0 0;
-    max-width: 200px;
   }
 
   @media(max-width: $bp-1199) {

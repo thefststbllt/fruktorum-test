@@ -4,6 +4,11 @@
   font-style: normal;
   font-weight: 800;
   line-height: 66px;
+
+  @media(max-width: $bp-767) {
+    font-size: 40px;
+    line-height: 1.3em;
+  }
 }
 
 @mixin title-h2() {
